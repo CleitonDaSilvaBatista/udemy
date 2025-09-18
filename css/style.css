@@ -50,7 +50,7 @@ ul li:hover{
     font-family: "Lexend Deca", sans-serif;
 }
 .digitar {
-    width: 170px;              
+    width: 250px;          
     padding: 10px 15px;        
     border: 2px solid #ccc;    
     border-radius: 25px;       
@@ -140,13 +140,13 @@ main{
   right: 20px;
 }
 .slide {
-  position: relative; /* necessário para a caption ficar dentro do slide */
+  position: relative; 
 }
 
 .caption {
   position: absolute;
-  bottom: 160px;       /* distância da parte inferior da imagem */
-  left: 25%;          /* centraliza horizontalmente */
+  bottom: 160px;       
+  left: 25%;         
   transform: translate(-50%,20%);
   color: rgb(0, 0, 0);
   text-align: left;
@@ -200,7 +200,7 @@ main{
 .tooltip {
   position: absolute;
   margin-top: 12px;
-  top: 140%;          /* posição abaixo do texto */
+  top: 140%;          
   left: 50%;
   transform: translateX(-50%);
   width: 260px;
@@ -251,6 +251,25 @@ main{
   transform: translate(22%, -105%);
   font-size: 12px;
 }
+@media (max-width: 960px) {
+
+ul{
+  font-size: 14px;
+  transform: translate(35%,1%);
+}
+.person{
+  display: none;
+}
+a{
+  transform: translateX(20%);
+}
+
+
+
+
+
+}
+
 
 
 
