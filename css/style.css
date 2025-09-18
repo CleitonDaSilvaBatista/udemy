@@ -251,6 +251,20 @@ main{
   transform: translate(22%, -105%);
   font-size: 12px;
 }
+.card{
+  width: 20%;
+  margin-left: 10%;
+}
+.cardybody{
+  padding: 1.25rem;
+  flex: 1 1 auto;
+}
+.cardtext{
+  padding: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+
 @media (max-width: 960px) {
 
 ul{
